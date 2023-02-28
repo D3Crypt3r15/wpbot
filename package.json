@@ -1,0 +1,24 @@
+{
+  "name": "wbot2",
+  "version": "1.0.0",
+  "description": "WhatsApp bot and Notifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {"type": "git","url": "https://github.com/D3Crypt3r15/wp-service.git"},
+  "author": "Al3xD3v",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/env": "^4.2.0",
+    "amqplib": "^0.10.3",
+    "fastify": "^4.13.0",
+    "fastify-amqp": "^1.1.0",
+    "fastify-mongoose-driver": "^3.2.0",
+    "mongoose": "^6.10.0",
+    "puppeteer": "^19.7.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.4"
+  }
+}
